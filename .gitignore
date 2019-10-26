@@ -102,3 +102,5 @@ atlassian*
 /nginx.conf.sample
 /package.json.sample
 /php.ini.sample
+/.travis.yml.sample
+SECURITY.md
