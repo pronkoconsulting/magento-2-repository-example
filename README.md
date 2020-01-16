@@ -71,3 +71,12 @@ Or simply add the following lines at the end of the `.gitignore` file.
 #!/vendor/.htaccess
 #!/generated/.htaccess
 ```
+
+## How To Install
+- check all the php extension are installed with running php version (check here)[https://magento.stackexchange.com/questions/123246/magento-2-php-extensions-missing]
+
+- Download vendor packages using $composer update
+  - provide the auth keys from magento marketplace and save in local in auth.json
+- change the permission of directory with chmod and chown
+- Now Install magento using (Commandline)[https://www.simicart.com/blog/magento-2-composer/] or BrowserSide
+ 
